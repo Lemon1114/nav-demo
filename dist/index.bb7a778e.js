@@ -1,5 +1,5 @@
 (function () {
-  let $16b5ad875ae907e2f7f79e7b8fe116cc$var$hashmap = Array.from(JSON.parse(localStorage.getItem('list'))) || [{
+  let $16b5ad875ae907e2f7f79e7b8fe116cc$var$hashmap = JSON.parse(localStorage.getItem('list')) || [{
     logo: 'B',
     url: 'http://baidu.com'
   }, {
@@ -56,4 +56,4 @@
   };
 })();
 
-//# sourceMappingURL=index.e6b23451.js.map
+//# sourceMappingURL=index.bb7a778e.js.map
