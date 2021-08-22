@@ -1,4 +1,4 @@
-let hashmap = Array.from(JSON.parse(localStorage.getItem('list'))) || [{ logo: 'B', url: 'http://baidu.com' }, { logo: 'B', url: 'http://bing.com' }]
+let hashmap = JSON.parse(localStorage.getItem('list')) || [{ logo: 'B', url: 'http://baidu.com' }, { logo: 'B', url: 'http://bing.com' }]
 const $addItem = $(".siteList .addItem")
 
 function render() {
